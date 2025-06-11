@@ -14,8 +14,8 @@ Eine interaktive Webseite zur Visualisierung geplanter Windkraftanlagen in Berli
 
 1. Klonen Sie das Repository:
 ```bash
-git clone https://github.com/ihr-username/windkraft-berlin.git
-cd windkraft-berlin
+git clone https://github.com/gitvibe-ai/WindkraftBerlin.git
+cd WindkraftBerlin
 ```
 
 2. Starten Sie einen lokalen Webserver. Zum Beispiel mit Python:
