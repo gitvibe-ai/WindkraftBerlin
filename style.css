@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+header {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.upload-section {
+    margin-bottom: 1rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label[for="gmlFileInput"] {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+label[for="gmlFileInput"]:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 40px;
+    padding: 10px 5px;
+    background-color: #f5f5f5;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+#map {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.layer-control {
+    margin-top: 10px;
+}
+
+.layer-control label {
+    display: block;
+    margin-bottom: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+#impressum {
+    position: fixed;
+    top: 10px;
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+#impressum p {
+    margin: 5px 0;
+}
+
+#impressum a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#impressum a:hover {
+    text-decoration: underline;
+}
+
+#beteiligung {
+    position: fixed;
+    bottom: 10px;
+    left: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1000;
+    max-width: 500px;
+}
+
+#beteiligung h3 {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+
+#beteiligung p {
+    margin: 5px 0;
+}
+
+#beteiligung a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#beteiligung a:hover {
+    text-decoration: underline;
+} 

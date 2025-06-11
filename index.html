@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windenergiegebiete Berlin</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/proj4@2.8.1/dist/proj4.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>geplante Windenergiegebiete Berlin</h1>
+            <div class="layer-control"></div>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <div id="impressum">
+        <p>Erstellt von: Michael Windisch</p>
+        <p>Kontakt: <a href="mailto:michael.windisch@cdu-reinickendorf.de">michael.windisch@cdu-reinickendorf.de</a></p>
+    </div>
+
+    <div id="beteiligung">
+        <h3>Änderung Flächennutzungsplan „Windenergie in Berlin" (01/24)</h3>
+        <p>Datenquelle und Beteiligungsverfahren:<br>
+        <a href="https://www.berlin.de/sen/stadtentwicklung/planung/flaechennutzungsplanung/oeffentlichkeitsbeteiligung/windenergie-in-berlin-01-24-1566188.php" target="_blank">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen</a></p>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html> 
